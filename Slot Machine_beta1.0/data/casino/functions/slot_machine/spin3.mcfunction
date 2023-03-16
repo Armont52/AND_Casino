@@ -1,2 +1,0 @@
-execute as @e[type=minecraft:glow_item_frame,tag=reel3,limit=1] at @s if score is_spinning3 AND_Slot_Machine matches 1 run loot replace entity @s container.0 loot casino:chests/slot_reel3
-execute as @e[type=minecraft:glow_item_frame,tag=reel3,limit=1] at @s run playsound minecraft:block.note_block.bit ambient @a ~ ~ ~ 0.4 1
